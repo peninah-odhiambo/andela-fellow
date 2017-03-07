@@ -13,7 +13,7 @@ class student (object):
   def __str__ (self):
     return "%s studies %s" % (self.name, self.course)
     
-    Peninah = student ("Peninah","Business Infomatics" )
+Peninah = student ("Peninah","Business Infomatics" )
   
-    print (Peninah.__str__())
+print (Peninah.__str__())
   

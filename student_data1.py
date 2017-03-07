@@ -22,8 +22,8 @@ class student (object):
   def __str__ (self):
     return "% studies %s and has a fee balance of %s" % (self.name, self.course, self.__fee_balance)
 
-    Peninah = student ("Peninah", "Business Infomatics", 20000)
+Peninah = student ("Peninah", "Business Infomatics", 20000)
     
  
-    print (Peninah.__str__())
+print (Peninah.__str__())
   
