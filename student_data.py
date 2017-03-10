@@ -1,19 +1,26 @@
 class student (object):
-  # the class student will represent all students involved
-  def __init__ (self, name, course):
+  def __init__(self, name, course, fee_balance):
     self.name = name
     self.course = course
-    
-  def getName (self):
-    return self.name
-    
-  def getCourse (self):
-    return self.course
-    
-  def __str__ (self):
-    return "%s studies %s" % (self.name, self.course)
-    
-Peninah = student ("Peninah","Business Infomatics" )
-  
-print (Peninah.__str__())
-  
+    self.fee_balance = fee_balance
+    self.admission_year = admission_year
+
+class Accounts(student):
+  def Accounts (self):
+    self.name = name
+    self.course = course
+    self.balance = balance
+
+    if amount > self.balance:
+      print "Pending fees"
+    else amount == self.balance:
+      return self.balance
+
+  def Lectures (student):
+    if amount == 0:
+      print ("Unable to attend class")
+    else:
+      print ("name: "), self.name, ("course"), self.course, ("year"), self.admission_year
+
+
+
